@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  species: MyString
+  gender: MyString
+  location: MyString
+  claimed: false
+
+two:
+  species: MyString
+  gender: MyString
+  location: MyString
+  claimed: false

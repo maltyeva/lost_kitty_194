@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col col-sm-8 col-sm-offset-2">
+      <h3>Add A Pet</h3>
+      <%= simple_form_for (@pet) do |f| %>
+        <%= f.input :species, collection: ["dog", "cat", "rabbit"]%>
+        <%= f.input :location %>
+        <%= f.input :gender, collection: ["M", "F"], as: :radio_buttons%>
+        <%= f.submit "Add a Pet" %>
+      <% end %>
+    </div>
+  </div>
+</div>
